@@ -16,38 +16,39 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Asia/Kolkata
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Teja Swaroop                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Personal Site   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  A blog intended to document the things I learn everyday in programming, penetration testing, and computers in general.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'http://tejaswaroop.com'
 
 github:
-  username: github_username             # change to your github username
+  username: teja156             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: techraj156            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
+  name: Teja Swaroop
+  email: tejaswaroop156@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/techraj156      # change to your twitter homepage
+    - https://github.com/teja156       # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://www.instagram.com/teja.techraj
+    - https://youtube.com/techraj156
     # - https://www.linkedin.com/in/username
 
 google_site_verification:               # fill in to your verification string
