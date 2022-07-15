@@ -29,7 +29,7 @@ description: >-                        # used by seo meta and the atom feed
   A blog intended to document the things I learn everyday in programming, penetration testing, and computers in general.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'http://tejaswaroop.com'
+url: 'https://tejaswaroop.com'
 
 github:
   username: teja156             # change to your github username
@@ -84,7 +84,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/images/dp.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -111,7 +111,7 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled:      # boolean, keep empty means false
+    enabled:     # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
     env:          # [development|production]
