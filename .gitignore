@@ -18,3 +18,8 @@ vendor
 # npm dependencies
 node_modules
 package-lock.json
+
+writeposts/*
+.obsidian/*
+
+_posts/assets/*
