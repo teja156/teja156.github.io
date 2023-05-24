@@ -7,4 +7,8 @@ tags: [oscp, walkthroughs, vulnhub walkthroughs, development, vulnhub, pentestin
 pdf_file: "/assets/pdf/VulnHub_Development.pdf"
 ---
 
+Walkthrough of the VulnHub machine [Development](https://www.vulnhub.com/entry/digitalworldlocal-development,280/)
+
+Find the PDF below.
+
 {% pdf {{ page.pdf_file }} width=800px height=1000px %}
