@@ -1,0 +1,158 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://tejaswaroop.com/</id>
+  <title>Teja Swaroop</title>
+  <subtitle>A blog intended to document the things I learn everyday in programming, penetration testing, and computers in general.</subtitle>
+  <updated>2023-05-25T00:56:34+05:30</updated>
+  <author>
+    <name>Teja Swaroop</name>
+    <uri>https://tejaswaroop.com/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://tejaswaroop.com/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://tejaswaroop.com/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
+  <rights> © 2023 Teja Swaroop </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>VulnHub DigitalWorld.Local - Mercy V2 Walkthrough</title>
+    <link href="https://tejaswaroop.com/posts/VulnHub-Mercy-V2-Walkthrough/" rel="alternate" type="text/html" title="VulnHub DigitalWorld.Local - Mercy V2 Walkthrough" />
+    <published>2023-05-24T14:21:00+05:30</published>
+  
+    <updated>2023-05-24T14:21:00+05:30</updated>
+  
+    <id>https://tejaswaroop.com/posts/VulnHub-Mercy-V2-Walkthrough/</id>
+    <content src="https://tejaswaroop.com/posts/VulnHub-Mercy-V2-Walkthrough/" />
+    <author>
+      <name>Teja Swaroop</name>
+    </author>
+
+  
+    
+    <category term="Pentesting" />
+    
+    <category term="VulnHub walkthroughs" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Walkthrough of the VulnHub machine Mercy V2
+
+Find the PDF below.
+
+
+  View PDF     
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>VulnHub DigitalWorld.Local - Development Walkthrough</title>
+    <link href="https://tejaswaroop.com/posts/VulnHub-Development-Walkthrough/" rel="alternate" type="text/html" title="VulnHub DigitalWorld.Local - Development Walkthrough" />
+    <published>2023-05-22T23:45:00+05:30</published>
+  
+    <updated>2023-05-22T23:45:00+05:30</updated>
+  
+    <id>https://tejaswaroop.com/posts/VulnHub-Development-Walkthrough/</id>
+    <content src="https://tejaswaroop.com/posts/VulnHub-Development-Walkthrough/" />
+    <author>
+      <name>Teja Swaroop</name>
+    </author>
+
+  
+    
+    <category term="Pentesting" />
+    
+    <category term="VulnHub walkthroughs" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Walkthrough of the VulnHub machine Development
+
+Find the PDF below.
+
+
+  View PDF     
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Basic Computer Architecture - The CPU and Memory</title>
+    <link href="https://tejaswaroop.com/posts/Basic-Computer-Architecture/" rel="alternate" type="text/html" title="Basic Computer Architecture - The CPU and Memory" />
+    <published>2022-07-17T22:57:00+05:30</published>
+  
+    <updated>2022-07-17T22:57:00+05:30</updated>
+  
+    <id>https://tejaswaroop.com/posts/Basic-Computer-Architecture/</id>
+    <content src="https://tejaswaroop.com/posts/Basic-Computer-Architecture/" />
+    <author>
+      <name>Teja Swaroop</name>
+    </author>
+
+  
+    
+    <category term="Computer Architecture" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      According to the Von Newmann architecture, computers are composed of two main components,
+
+  The Central Processing Unit (CPU)
+  The Memory
+
+
+The CPU
+The CPU contains the following components,
+
+  Program Counter
+  Instruction Decoder
+  Data bus
+  Registers
+  Arithmetic and Logical unit (ALU)
+
+
+Program Counter
+A program counter (PC) holds the address of the next instruction to execute. A compute...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
