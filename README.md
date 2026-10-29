@@ -17,7 +17,7 @@ python -m http.server 8000
 
 ## Deploy
 
-Pushing to `main` runs `.github/workflows/pages-deploy.yml`, which copies the static files to the `gh-pages` branch that GitHub Pages serves.
+The site is hosted on Vercel, connected to this repo. Every push to `main` deploys automatically. There is no build step, and the output directory is the repo root. `.vercelignore` keeps repo-only files like this README from being served.
 
 ## Adding a project
 

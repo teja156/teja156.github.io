@@ -1,0 +1,9 @@
+# repo files that shouldn't be served as public URLs
+README.md
+LICENSE
+.github
+.gitattributes
+.gitignore
+.editorconfig
+.vercelignore
+private
