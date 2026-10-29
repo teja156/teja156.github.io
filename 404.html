@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404: not found</title>
+  <meta name="description" content="Page not found.">
+  <meta name="theme-color" content="#040705">
+  <link rel="icon" href="/assets/img/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+  <main class="page">
+    <p class="crumbs">~</p>
+    <h1>404</h1>
+    <p class="meta"><span style="color:var(--red)">bash: ${location}: No such file or directory</span></p>
+    <div class="article">
+      <p>This page doesn't exist, or it moved when the site was rebuilt. Old blog posts now live under writeups.</p>
+      <p><a class="btn" href="/">Go home</a> <a class="btn" href="/#writeups">Browse writeups</a></p>
+    </div>
+    <script>
+      // old Jekyll post URLs (/posts/...) move to /writeups/
+      (function () {
+        var p = location.pathname.toLowerCase(), map = [["mercy", "vulnhub-mercy-v2"], ["development", "vulnhub-development"], ["architecture", "computer-architecture"]];
+        if (p.indexOf("/posts/") === 0) for (var i = 0; i < map.length; i++) if (p.indexOf(map[i][0]) > -1) { location.replace("/writeups/" + map[i][1] + "/"); return; }
+      })();
+    </script>
+    <script>document.querySelector('.meta span').textContent = 'bash: ' + location.pathname + ': No such file or directory';</script>
+  </main>
+  <nav class="status" aria-label="Site">
+    <span class="status-session">[teja]</span>
+    <ol class="status-wins">
+      <li><a href="/">0:home</a></li>
+      <li><a href="/#projects">2:projects</a></li>
+      <li><a href="/#oscp">3:oscp</a></li>
+      <li><a href="/#writeups" aria-current="true">4:writeups</a></li>
+    </ol>
+  </nav>
+</body>
+</html>
