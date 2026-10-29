@@ -23,3 +23,6 @@ writeposts/*
 .obsidian/*
 
 _posts/assets/*
+
+# private reference docs (resume, LinkedIn export)
+private/
